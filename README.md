@@ -29,9 +29,9 @@ tourType.java and CountriesDetails.java consist of list of strings (array lists)
 Suggestions
 - create a java file to read the JSON file in the URL (http://dev-agra.mpulsesandbox.com/api/getCountries) and add to an arraylist
 
--Replace the current spinner assignment in both ManualEntryActivity.java and ResultViewActivity.java to read the above arraylist
+- Replace the current spinner assignment in both ManualEntryActivity.java and ResultViewActivity.java to read the above arraylist
 
 - Printer functions :NO CLUE
 
--A button is already created to switch ON/OFF and the function stops the application on click. (Reason: it calls a new camera session). This needs to be handled in ".\Barcode-Reader-master\barcode-reader\src\main\java\com\notbytes\barcode_reader\BarcodeReaderFragment.java" file under "setFlash()" function.
+- A button is already created to switch ON/OFF and the function stops the application on click. (Reason: it calls a new camera session). This needs to be handled in ".\Barcode-Reader-master\barcode-reader\src\main\java\com\notbytes\barcode_reader\BarcodeReaderFragment.java" file under "setFlash()" function.
 
