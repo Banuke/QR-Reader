@@ -33,7 +33,7 @@ General Info:
 
 - ManualEntryActivity.java - Displays the manual entry form view (includes the layout XML)
 
-- ResultViewActivity.java - Displays the automatic capture results view (includes the layout XML)
+- ResultViewActivity.java - Displays the automatic capture results view through xml file read (includes the layout XML)
 
 - tourType.java and CountriesDetails.java consist of list of strings (array lists) that is called to publish the spinner as of current version.
 
