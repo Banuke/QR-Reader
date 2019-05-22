@@ -15,18 +15,20 @@ Current version stats:
  2. Pass the data to Print function embedded in the POS terminal
  3. Button in camera view activity to turn ON/OFF flash
  
-General Info
-All required activity java files are in the path "QR-Reader/Barcode-Reader-master/app/src/main/java/com/notbytes/barcodereader"
+General Info:
 
-MainActivity.java - Consists of two buttons to launch the scanning activity or manual entry activity. onActivityResult() contains the barcode read result function.
+- All required activity java files are in the path "QR-Reader/Barcode-Reader-master/app/src/main/java/com/notbytes/barcodereader"
 
-ManualEntryActivity.java - Displays the manual entry form view (includes the layout XML)
+- MainActivity.java - Consists of two buttons to launch the scanning activity or manual entry activity. onActivityResult() contains the barcode read result function.
 
-ResultViewActivity.java - Displays the automatic capture results view (includes the layout XML)
+- ManualEntryActivity.java - Displays the manual entry form view (includes the layout XML)
 
-tourType.java and CountriesDetails.java consist of list of strings (array lists) that is called to publish the spinner as of current version.
+- ResultViewActivity.java - Displays the automatic capture results view (includes the layout XML)
 
-Suggestions
+- tourType.java and CountriesDetails.java consist of list of strings (array lists) that is called to publish the spinner as of current version.
+
+Suggestions:
+
 - Create a java file to read the JSON file in the URL (http://dev-agra.mpulsesandbox.com/api/getCountries) and add to an arraylist. Maker sure to capture both countrycode and countryname. 
 
 - Replace the current spinner assignment in both ManualEntryActivity.java and ResultViewActivity.java to read the above arraylist
