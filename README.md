@@ -27,7 +27,7 @@ ResultViewActivity.java - Displays the automatic capture results view (includes 
 tourType.java and CountriesDetails.java consist of list of strings (array lists) that is called to publish the spinner as of current version.
 
 Suggestions
-- create a java file to read the JSON file in the URL (http://dev-agra.mpulsesandbox.com/api/getCountries) and add to an arraylist
+- Create a java file to read the JSON file in the URL (http://dev-agra.mpulsesandbox.com/api/getCountries) and add to an arraylist. Maker sure to capture both countrycode and countryname. 
 
 - Replace the current spinner assignment in both ManualEntryActivity.java and ResultViewActivity.java to read the above arraylist
 
